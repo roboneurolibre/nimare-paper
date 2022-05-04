@@ -41,3 +41,10 @@ parts:
     - file: appendices/brainmap_decoding
     - file: appendices/neurosynth_decoding
     - file: 17_build_information
+
+- caption: NeuroLibre
+  chapters:
+  - url: https://github.com/NBCLab/nimare-paper
+    title: Author's repository 
+  - url: https://github.com/neurolibre/neurolibre-reviews/issues/7
+    title: Technical screening record
