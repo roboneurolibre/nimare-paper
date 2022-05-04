@@ -34,13 +34,14 @@ html:
 
 #######################################################################################
 # Launch button settings
-launch_buttons:
+launch_buttons: 
+  binderhub_url: "https://binder-mcgill.conp.cloud"
   notebook_interface        : classic  # The interface interactive links will activate ["classic", "jupyterlab"]
   binderhub_url             : https://binder.conp.cloud # The URL of the test Neurolibre BinderHub
   thebe                     : false  # Add a thebe button to pages (requires the repository to run on Binder)
 
 repository:
-  url                       : https://github.com/NBCLab/nimare-paper  # The URL to your book's repository
+  url: https://github.com/roboneurolibre/nimare-paper
   path_to_book              : "content"  # A path to your book's folder, relative to the repository root.
   branch                    : "master"  # Which branch of the repository should be used when creating links
 
